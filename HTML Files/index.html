@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edson Tati | Front-End Developer</title>
     <link rel="stylesheet" href="/CSS Files/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/img/IMG_5165-1-removebg-preview.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- HEADER -->
     <header>
-      <div class="logo">Edson <span>Tati</span></div>
+      <div class="logo">Dev <span>/</span></div>
       <nav>
         <a href="#sobre">Sobre</a>
         <a href="#skills">Skills</a>
@@ -17,7 +28,14 @@
         <a href="#contacto">Contato</a>
       </nav>
     </header>
-
+    <div class="video-background">
+      <video autoplay loop muted playsinline>
+        <source
+          src="/videos/0_Abstract_Background_Geometric_Shapes_3840x2160.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
     <!-- HERO -->
     <section id="hero">
       <h1>Olá, sou <span>Edson Tati</span></h1>
@@ -30,10 +48,17 @@
     <section id="sobre" class="container">
       <h2>Sobre Mim</h2>
       <p>
-        Sou um desenvolvedor front-end com mais de 3 anos de experiência,
-        apaixonado por transformar ideias em interfaces funcionais e modernas.
-        Trabalho principalmente com JavaScript, React, HTML, CSS, Bootstrap e boas práticas
-        de UI/UX.
+        Olá! Eu sou o Edson Tati, Desenvolvedor Front-End desde 2021. Sou
+        apaixonado por tecnologia e por transformar ideias em soluções reais e
+        funcionais. Trabalho com HTML, CSS, JavaScript e também utilizo
+        Bootstrap para criar interfaces modernas, responsivas e bem
+        estruturadas. Tenho noções de React e já tive experiência com Java, além
+        de trabalhar com bases de dados como MongoDB e MySQL, o que me ajuda a
+        compreender melhor todo o funcionamento de aplicações completas. O meu
+        objetivo é melhorar continuamente, aprender novas tecnologias e
+        contribuir para projetos que façam a diferença. Acredito no poder do
+        código para impactar pessoas e abrir novas possibilidades — e é isso que
+        me motiva todos os dias.
       </p>
     </section>
 
@@ -75,10 +100,35 @@
     </section>
 
     <!-- CONTACTO -->
-    <section id="contacto" class="container">
+
+    
+    <section id="contacto" class="container-contact">
+       <div class="contact-box">
       <h2>Contato</h2>
       <p>Email: <strong>melaoedson7@gmail.com</strong></p>
-      <p>GitHub: <a href="#" target="_blank">https://github.com/edsonrichy</a></p>
+      <p>
+        GitHub: <a href="#" target="_blank">https://github.com/edsonrichy</a>
+      </p>
+      </div>
+      <div class="">
+    <form class="contact-box">
+      <h2>Contact Us</h2>
+
+      <label>Name</label>
+      <input type="text" placeholder="">
+
+      <label>Email</label>
+      <input type="email" placeholder="">
+
+      <label>Message</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+     
+
+  </div>
+  
     </section>
 
     <footer>© 2025 Edson Tati — Front-End Developer</footer>
