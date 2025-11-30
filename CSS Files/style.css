@@ -1,0 +1,146 @@
+:root {
+    --blue: #0a74da;
+    --dark-blue: #052d58;
+    --white: #fff;
+    --grey: #e8e8e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: var(--white);
+    color: var(--dark-blue);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: var(--dark-blue);
+    color: var(--white);
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+header .logo span {
+    color: var(--blue);
+}
+
+nav a {
+    color: var(--white);
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--blue);
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: var(--blue);
+    color: white;
+}
+
+#hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#hero h1 span {
+    color: var(--dark-blue);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: var(--dark-blue);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #021b38;
+}
+
+/* CONTAINERS */
+.container {
+    padding: 60px 50px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+/* SKILLS */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.skill {
+    background: var(--grey);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* PROJECTS */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background: var(--grey);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project-card a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--dark-blue);
+    color: white;
+    margin-top: 40px;
+}
+
+.sobre-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.sobre-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--blue);
+}
